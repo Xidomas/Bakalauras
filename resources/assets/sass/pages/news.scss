@@ -1,0 +1,42 @@
+.news-section {
+	.news-content {
+		display: flex;
+		justify-content: space-between;
+		height: 160px;
+		margin-top: 50px;
+		margin-bottom: 50px;
+
+		.news-title {
+			display: flex;
+			width: 10%;
+
+			a {
+				font-weight: bold;
+				margin: auto;
+			}
+		}
+
+		.news-image {
+			height: 180px;
+			width: 350px;
+
+			a {
+				img {
+					max-height: 100%;
+				}
+			}
+		}
+
+		.news-description {
+			width: 50%;
+			margin-top: 10px;
+			margin-bottom: 10px;
+			overflow: hidden;
+
+			a {
+				p {
+				}
+			}
+		}
+	}
+}

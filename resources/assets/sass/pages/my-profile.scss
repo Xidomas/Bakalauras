@@ -1,0 +1,54 @@
+.my-profile {
+	display: grid;
+	grid-template-columns: 1fr 4fr;
+	grid-gap: 120px;
+	padding: 80px 0 80px;
+	background-color: #ffffff;
+
+	.my-profile-sidebar {
+		margin-top: 40px;
+
+		ul {
+			li {
+				a {
+				}
+			}
+			li.active {
+				font-weight: bold;
+			}
+		}
+	}
+	.my-profile-content {
+		h1 {
+		}
+
+		form {
+			label {
+				display: block;
+			}
+
+			input {
+				border: 1px solid #919191;
+				padding: 16px 10px;
+				border-radius: 5px;
+				width: 66.6%;
+				font-size: 14px;
+			}
+
+			.form-control {
+				margin-bottom: 30px;
+			}
+
+			.my-profile-button {
+				background: #212121;
+				color: #e9e9e9;
+				border-radius: 5px;
+				padding: 12px 50px;
+
+				&:hover {
+					background: lighten(#212121, 10%);
+				}
+			}
+		}
+	}
+}

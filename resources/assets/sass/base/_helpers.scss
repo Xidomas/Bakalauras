@@ -1,0 +1,22 @@
+.full-width {
+	width: 100%;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.spacer {
+	margin-bottom: 30px;
+}
+
+.sticky-footer {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.container {
+	margin: auto;
+	max-width: 1200px;
+}

@@ -1,0 +1,79 @@
+.rentOfferList-section {
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	margin: 80px auto 80px;
+	grid-gap: 25px;
+
+	.rentOfferList-leftbar {
+		text-align: center;
+
+		.rentOfferList-left-filter {
+			border: 2px solid #000000;
+			margin-bottom: 30px;
+		}
+
+		.rentOfferList-left-filter li.active {
+			font-weight: bold;
+			color: #32cd32;
+		}
+
+		h3 {
+			font-weight: bold;
+			padding-top: 16px;
+			padding-bottom: 16px;
+			border: 1px solid #000000;
+		}
+
+		ul {
+			line-height: 2;
+
+			a {
+				li {
+					border: 1px solid #000000;
+				}
+			}
+		}
+	}
+
+	.rentOfferList-rightbar {
+		.rentOfferList-header {
+			margin-bottom: 28px;
+			display: flex;
+			justify-content: space-between;
+
+			h1 {
+			}
+
+			.rentOfferList-right-order {
+				border: 1px solid #000000;
+				padding: 10px 10px 10px 10px;
+
+				a {
+				}
+			}
+		}
+
+		.rentOffers {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr;
+			grid-gap: 30px 30px;
+			a {
+				.rentOffer {
+					border: 1px solid #000000;
+
+					img {
+						height: 150px;
+						padding: 10px 10px 10px 10px;
+					}
+
+					.rentOffer-name {
+						font-weight: bold;
+					}
+
+					.rentOffer-price {
+					}
+				}
+			}
+		}
+	}
+}

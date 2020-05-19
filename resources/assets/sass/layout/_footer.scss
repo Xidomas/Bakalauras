@@ -1,0 +1,38 @@
+footer {
+  background-color: #000000;
+  opacity: 0.9;
+
+  .footer-content {
+    display: flex;
+    padding: 50px 0;
+    justify-content: space-between;
+
+    .madeBy {
+      color: #ffffff;
+    }
+
+    ul {
+      display: flex;
+
+      .followUs {
+        color: #ffffff;
+        font-weight: 400;
+        letter-spacing: 1.5px;
+      }
+
+      li {
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+
+      a {
+        font-weight: 400;
+        color: #ffffff;
+
+        &:hover {
+          color: darken(#ffffff, 40%);
+        }
+      }
+    }
+  }
+}

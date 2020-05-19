@@ -1,0 +1,21 @@
+.faq-section {
+	padding: 50px 0;
+	background: #f5f5f5;
+	border-top: 1px solid #cdcdcd;
+
+	.faq-title {
+		text-align: center;
+		margin-bottom: 50px;
+	}
+
+	.faq-question {
+		text-align: left;
+		font-weight: bold;
+	}
+
+	.faq-answer {
+		text-align: left;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+}

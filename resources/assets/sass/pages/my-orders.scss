@@ -1,0 +1,70 @@
+.my-orders {
+	display: grid;
+	grid-template-columns: 1fr 4fr;
+	grid-gap: 120px;
+	padding: 80px 0 80px;
+	background-color: #ffffff;
+
+	.my-orders-sidebar {
+		margin-top: 40px;
+
+		ul {
+			li {
+				a {
+				}
+			}
+
+			li.active {
+				font-weight: bold;
+			}
+		}
+	}
+
+	.my-orders-content {
+		h1 {
+			margin-bottom: 25px;
+		}
+
+		.my-orders-container {
+			margin-bottom: 64px;
+
+			.my-orders-header {
+				background: #f6f6f6;
+				border: 1px solid #dddddd;
+				padding: 14px;
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+
+				.my-orders-header-items {
+					display: flex;
+					font-size: 14px;
+
+					div {
+						margin-right: 14px;
+					}
+				}
+			}
+
+			.my-orders-rentOffers {
+				background: white;
+				border: 1px solid #dddddd;
+				border-top: none;
+				padding: 14px;
+
+				.my-orders-rentOffer-item {
+					display: flex;
+					justify-content: space-between;
+					margin: 20px 0;
+					padding-left: 180px;
+					padding-right: 180px;
+
+					img {
+						max-height: 140px;
+						margin-right: 24px;
+					}
+				}
+			}
+		}
+	}
+}
